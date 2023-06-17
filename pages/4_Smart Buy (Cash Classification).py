@@ -74,7 +74,8 @@ model = project.version(3).model
 
 st.header("โปรแกรมช่วยตรวจจับและจำแนกเงินสด🪙 (Cash Classification)")
 st.divider()
-input_image_BC = st.camera_input("📸กดถ่ายรูปเพื่อประมวลผล...", key = "firstCamera")
+# input_image_BC = st.camera_input("📸กดถ่ายรูปเพื่อประมวลผล...", key = "firstCamera")
+input_image_BC = None
 
 if input_image_BC is not None:
     amount = 0
