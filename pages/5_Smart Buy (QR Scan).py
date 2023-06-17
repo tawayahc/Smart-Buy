@@ -7,8 +7,7 @@ st.title("Smart Buy💵")
 st.header("QR Scanner📷")
 st.divider()
 
-# input_image_BQ = st.camera_input("📸กดถ่ายรูปเพื่อประมวลผล...", key = "firstCamera")
-input_image_BQ = None
+input_image_BQ = st.camera_input("📸กดถ่ายรูปเพื่อประมวลผล...", key = "firstCamera")
 
 if input_image_BQ is not None:
     img = Image.open(input_image_BQ)
